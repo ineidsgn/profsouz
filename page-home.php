@@ -24,7 +24,7 @@ get_header(); ?>
 
 	                        global $post;
 	                        $args = array(
-		                        'posts_per_page' => 3,
+		                        'posts_per_page' => 4,
 		                        'post_type' => 'news',
 		                        'post_status' => 'publish'
 	                        );

@@ -3,8 +3,7 @@ Theme Name: Electrosouz
 Theme URI: 
 Description: Electrosouz theme
 Author: Electrosouz
-Author URI: 
-Template: twentyfifteen
+Author URI:
 Version: 1
 */
 
@@ -204,24 +203,8 @@ header.site-header {
     }
   }
 
-  .youtube-link {
-    display: inline-block;
-    padding-top: 16px;
-    background-size: 100% 200%;
-    width: 75px;
-    background-image: url('img/youtube.png');
-    background-repeat: no-repeat;
-    background-position-y: -16px;
 
-    &:hover {
-      background-position-y: 0;
-    }
-
-  }
-
-
-
-  .instagram-link {
+  .youtube-link, .instagram-link, .vk-link {
 
     color: #000000;
 
@@ -1780,6 +1763,86 @@ figure.gallery-post {
 @media screen and (max-width: 767px) {
   figure.gallery-post {
 
+  }
+}
+
+
+section.achievements-feed {
+  margin-bottom: 200px;
+
+  header {
+    position: relative;
+    height: 57px;
+
+    h1.archive-title {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+
+      &:before {
+        background-image: url(img/img_icon.png);
+        height: 23px;
+        width: 25px;
+        top: 0;
+      }
+    }
+  }
+
+  .achievements-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .archive-item {
+      width: 32%;
+      margin-bottom: 30px;
+
+      .archive-image {
+        max-width: none;
+        border-radius: 0;
+        padding-top: 140%;
+        position: relative;
+        margin-bottom: 20px;
+        box-shadow: 0 0 0 5px #ebebeb;
+        transition: box-shadow 0.2s ease-in-out;
+
+        &:hover {
+          box-shadow: 0 0 0 10px #ffd427;
+        }
+
+      }
+
+      .archive-item-title {
+        text-align: center;
+        font-size: 13px;
+        font-weight: normal;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  section.achievements-feed {
+
+    header {
+      height: auto;
+
+      h1.archive-title {
+        position: relative;
+        left: 0;
+        transform: none;
+      }
+    }
+
+
+    .achievements-grid {
+      display: block;
+
+      .archive-item {
+        width: 100%;
+      }
+    }
   }
 }
 

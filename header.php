@@ -94,13 +94,17 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-6 text-left top-10">
-                            <a class="youtube-link" href="https://www.youtube.com/channel/UC0mUB2Lj4ifbkXUtS9dJRIQ" target="_blank"></a>
+                        <div class="col-xs-5 col-lg-5 text-center top-10">
+                            <a class="youtube-link" href="https://www.youtube.com/channel/UC0mUB2Lj4ifbkXUtS9dJRIQ" target="_blank"><img width="70" src="<?php echo get_stylesheet_directory_uri(); ?>/img/you_tube.png" title="YouTube"/></a>
                         </div>
-	                    <div class="col-md-6 text-left top-10">
-		                    <a class="instagram-link" href="https://www.instagram.com/ppo_omskenergo/" target="_blank"><img width="20" src="<?php echo get_stylesheet_directory_uri(); ?>/img/instagram.png" title="Instagram"/> Instagram</a>
+	                    <div class="col-xs-3 col-lg-3 text-center top-10">
+		                    <a class="instagram-link" href="https://www.instagram.com/ppo_omskenergo/" target="_blank"><img width="20" src="<?php echo get_stylesheet_directory_uri(); ?>/img/instagram.png" title="Instagram"/></a>
+	                    </div>
+	                    <div class="col-xs-4 col-lg-3 text-center top-10">
+		                    <a class="vk-link" href="https://vk.com/public189369364" target="_blank"><img width="20" src="<?php echo get_stylesheet_directory_uri(); ?>/img/vk_icon.png" title="Вконтакте"/></a>
 	                    </div>
                     </div>
+	                <div class="top-10"></div>
                 </div>
 
                 <div class="visible-sm col-sm-12">
